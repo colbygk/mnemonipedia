@@ -1,0 +1,29 @@
+{
+  "name": "mnemonipedia",
+  "version": "1.0.0",
+  "description": "Mnemonic-pedia",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colbygk/mnemonipedia.git"
+  },
+  "keywords": [
+    "Brian",
+    "mapping",
+    "mnemonic",
+    "helpers",
+    "mnemonic"
+  ],
+  "author": "Colby Gutierrez-Kraybill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colbygk/mnemonipedia/issues"
+  },
+  "homepage": "https://github.com/colbygk/mnemonipedia#readme",
+  "dependencies": {
+    "create-react-app": "^1.4.0"
+  }
+}
