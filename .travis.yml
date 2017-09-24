@@ -14,7 +14,8 @@ deploy:
   provider: gae
   keyfile: mnemonipedia-gae-key.json
   project: mnemonipedia
-  on: production
+  skip_cleanup: true
+  on: master
 
 before_deploy:
 - openssl aes-256-cbc -K $encrypted_fd78d0a6e572_key -iv $encrypted_fd78d0a6e572_iv
