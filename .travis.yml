@@ -16,9 +16,6 @@ deploy:
   project: mnemonipedia
   on: production
 
-before_install:
+before_deploy:
 - openssl aes-256-cbc -K $encrypted_fd78d0a6e572_key -iv $encrypted_fd78d0a6e572_iv
   -in mnemonipedia-gae-key.json.enc -out mnemonipedia-gae-key.json -d
-
-install:
-  - gcloud config set project mnemonipedia
