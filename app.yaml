@@ -1,7 +1,7 @@
 # [START runtime]
 runtime: nodejs
 env: flex
-service: mnemonipedia
+service: default
 # [END runtime]
 
 # [START handlers]
