@@ -3,13 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.6.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-test-renderer": "^16.0.0",
+    "redux": "^3.7.2",
+    "todomvc-app-css": "^2.1.0"
   },
   "devDependencies": {
+    "enzyme": "^3.0.0",
+    "react-addons-test-utils": "^15.6.2",
     "react-scripts": "1.0.13"
   },
-  "homepage" : "http://mnemonipedia.org",
+  "homepage": "http://mnemonipedia.org",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
