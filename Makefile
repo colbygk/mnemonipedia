@@ -5,10 +5,10 @@ lint:
 	$(ESLINT) *.js
 	$(ESLINT) src/*.js
 
-react_tests:
-	$(REACT_SCRIPTS) test --env=jsdom
+#react_tests:
+#	$(REACT_SCRIPTS) test --env=jsdom
 
-test: lint react_tests
+#test: lint react_tests
 
 start:
 	$(REACT_SCRIPTS) start
@@ -16,4 +16,4 @@ start:
 install:
 	npm install
 
-.PHONY: install server test
+.PHONY: install server #test
